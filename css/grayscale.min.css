@@ -172,8 +172,8 @@
       .signup-section{
         padding:10rem 0;
         background:-webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),
-        color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-signup.jpg);
-        background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);
+        color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/aire1.jpg);
+        background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/aire-1.jpg);
         background-position:center;
         background-repeat:no-repeat;
         background-attachment:scroll;
@@ -320,8 +320,6 @@
   }
 }
 
-/* Frequently Asked Questions Section
---------------------------------*/
 #faq {
   padding: 60px 0;
   overflow: hidden;
@@ -377,4 +375,159 @@
 
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
+}
+
+.more {
+  background: rgba(0,174,255,1);
+  background: linear-gradient(to right, rgba(0,174,255,1) 0%, rgba(29,201,244,1) 100%);
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+#footer {
+  background: #1DC9F4;
+  padding: 0 0 25px 0;
+  color: #000;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #fff;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 26px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+#footer .footer-top .footer-info img {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ccc;
+  color: #000;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #1DC9F4;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1DC9F4;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #1DC9F4;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 5px;
+  color: #1DC9F4;
+  font-size: 18px;
+}
+
+
+#footer .footer-top .footer-links ul li {
+  border-bottom: 1px solid #262c44;
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #000;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #1DC9F4;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #1DC9F4;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #e0072f;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #ddd;
 }

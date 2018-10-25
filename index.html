@@ -23,7 +23,7 @@
     <link href="css/grayscale.min.css" rel="stylesheet">
   </head>
   <body id="page-top">    
-    
+
    <div class="informacion fixed-top">            
      <p> <a class="text-light" href="https://api.whatsapp.com/send?phone=573216157067&text=Hola, Me gustaría conocer más de sus servicios&source=&data="><img src="img/whatsapp.png" alt="whatsapp" width="25px"> Air Supreme | Contáctenos +57 3216157067</a></p>
    </div>
@@ -56,9 +56,9 @@
            Servicios
          </a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item js-scroll-trigger" href="#">Mantenimiento</a>
-          <a class="dropdown-item js-scroll-trigger" href="#">Instalación</a>
-          <a class="dropdown-item js-scroll-trigger" href="#">Venta de Equipos</a>
+          <a class="dropdown-item js-scroll-trigger" href="#mantenimiento">Mantenimiento</a>
+          <a class="dropdown-item js-scroll-trigger" href="#instalacion">Instalación</a>
+          <a class="dropdown-item js-scroll-trigger" href="#venta">Venta de Equipos</a>
         </div>
       </li>
       <li class="nav-item">
@@ -116,11 +116,12 @@
     <span class="sr-only">Siguiente</span>
   </a>
 </div>     
+
 <!-- Projects Section -->
 <section id="projects" class="projects-section bg-light">
   <div class="container">
     <!-- Featured Project Row -->
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+    <div id="mantenimiento" class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7">
        <a href="#"><img class="img-fluid mb-3 mb-lg-0" src="img/services-1.jpg" alt=""></a> 
      </div>
@@ -130,27 +131,128 @@
         <p class="text-black-60 mb-0">Realizamos mantenimientos <strong>predictivos, preventivos y correctivos</strong> para garantizar el rendimiento, funcionamiento y durabilidad del
         aire acondicionado.</p><a href="#">Conocer más...</a>
         <hr>
-        <button class="btn btn-info btn-small">Solicitar Servicio</button>
+        <button class="btn btn-info btn-small">Cotizar Servicio</button>
       </div>
-
     </div>
   </div>
-  <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+  <div id="instalacion" class="row align-items-center no-gutters mb-4 mb-lg-5">
     <div class="col-xl-8 col-lg-7">
-        <a href="#"><img class="img-fluid mr-1 mb-3 mb-lg-0" src="img/aire-1.jpg" alt=""></a>   
+      <a href="#"><img class="img-fluid mr-1 mb-3 mb-lg-0" src="img/aire-1.jpg" alt=""></a>   
     </div>
     <div class="col-xl-4 col-lg-5">
       <div class="featured-text-left text-center text-lg-left">
        <a class="" href="#"><h4>Instalación</h4></a>
-        <p class="text-black-60 mb-0">Nuestra labor es asesorarle en su necesidad y satisfacerla eficazmente, haciendo 
-        la mejor elección para la instalación y ubicación de su aire acondicionado o sistema de refrigeración.</p><a href="#">Conocer más...</a>
-      <hr>
-      <button class="btn btn-info btn-small">Solicitar Servicio</button>   
-      </div>
-    </div>     
+       <p class="text-black-60 mb-0">Nuestra labor es asesorarle en su necesidad y satisfacerla eficazmente, haciendo 
+       la mejor elección para la instalación y ubicación de su aire acondicionado.</p><a href="#">Conocer más...</a>
+       <hr>
+       <button class="btn btn-info btn-small">Cotizar Servicio</button>   
+     </div>
+   </div>     
+ </div>
+ <div id="venta" class="row align-items-center no-gutters mb-4 mb-lg-5">
+  <div class="col-xl-8 col-lg-7">
+    <a href="#"><img class="img-fluid mr-1 mb-3 mb-lg-0" src="img/aire-2.jpg" alt=""></a>   
   </div>
- 
- 
+  <div class="col-xl-4 col-lg-5">
+    <div class="featured-text-left text-center text-lg-left">
+     <a class="" href="#"><h4>Venta de Equipos</h4></a>
+     <p class="text-black-60 mb-0">Le asesoramos para que realice la mejor compra ajustada a las necesidades requeridas, contamos con los mejores proveedores que garantizan el funcionamiento de los equipos. </p><a href="#">Conocer más...</a>
+     <hr>
+     <button class="btn btn-info btn-small">Cotizar Servicio</button>   
+   </div>
+ </div>     
+</div>
+</section>
+
+<!-- SECTION TEAM -->
+<section class="text-center text-light p-5  bg-dark">
+ <h2 class="text-info title">Conócenos</h2>
+ <div class="container">
+  <div id="indicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#indicators" data-slide-to="0" class="active"></li>
+      <li data-target="#indicators" data-slide-to="1"></li>
+      <li data-target="#indicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+       <div class="testimonial">
+         <!--Foto-->
+         <div class="avatar mx-auto mb-4">
+           <img src="img/Ruben.jpg" class="rounded-circle img-fluid"
+           alt="Second sample avatar image">
+         </div>       
+         <h4 class="font-weight-bold">Ruben Dario Arango</h4>
+         <h6 class="font-weight-bold my-3 text-info">Gerente General</h6>
+         <ul class="list-unstyled mb-4">
+           <!-- Facebook -->
+           <a class="p-2 fa-lg fb-ic" href="#">
+             <i class="fab fa-facebook-f text-light"> </i>
+           </a>
+           <!-- Twitter -->
+           <a class="p-2 fa-lg tw-ic" href="#">
+             <i class="fab fa-twitter text-light"> </i>
+           </a>
+           <!-- Instagram -->
+           <a class="p-2 fa-lg ins-ic" href="#">
+             <i class="fab fa-instagram text-light"> </i>
+           </a>
+         </ul>
+         <i class="fa fa-star text-warning"> </i>
+         <i class="fa fa-star text-warning"> </i>
+         <i class="fa fa-star text-warning"> </i>
+         <i class="fa fa-star text-warning"> </i>
+         <i class="fa fa-star text-warning"> </i>
+       </div>
+     </div>                            
+
+     <div class="carousel-item">       
+      <div class="testimonial">
+        <!--Avatar-->
+        <div class="avatar mx-auto mb-4">
+          <img src="img/Kathe.jpg" class="rounded-circle img-fluid"
+          alt="Second sample avatar image">
+        </div>
+        <!--Content-->             
+        <h4 class="font-weight-bold">Katherine Bedoya</h4>
+        <h6 class="font-weight-bold my-3 text-info">Respresentate Legal</h6>
+        <ul class="list-unstyled mb-4">
+          <!-- Facebook -->
+          <a class="p-2 fa-lg fb-ic" href="#">
+            <i class="fab fa-facebook-f text-light"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="p-2 fa-lg tw-ic" href="#">
+            <i class="fab fa-twitter text-light"> </i>
+          </a>
+          <!-- Instagram -->
+          <a class="p-2 fa-lg ins-ic" href="#">
+            <i class="fab fa-instagram text-light"> </i>
+          </a>
+        </ul>
+        <!--Review-->
+        <i class="fa fa-star text-warning"> </i>
+        <i class="fa fa-star text-warning"> </i>
+        <i class="fa fa-star text-warning"> </i>
+        <i class="fa fa-star text-warning"> </i>
+        <i class="fa fa-star text-warning"> </i>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+</div>
+</div>  
+</section>
+<!--END SECTION TEAM-->
+
   <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
     <div class="col-lg-6">
       <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
@@ -167,7 +269,6 @@
       </div>
     </div>
   </div>
-
   <div class="row justify-content-center no-gutters">
     <div class="col-lg-6">
       <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
@@ -185,74 +286,7 @@
     </div>
   </div>
 </div> -->
-</section>
-
-<section id="faq">
-  <div class="container">
-    <div class="section-header">
-      <h3 class="section-title">Preguntas Frecuentes</h3>
-      <span class="section-divider"></span>
-      <p class="section-description">¿No encuentras tu inquietud? Llena este <a class="link" href="#">formulario</a> o escribeme un <a title="admon.airsupreme@gmail.com" href="">correo</a> para responderla </p>
-    </div>
-
-    <ul id="faq-list" class="wow fadeInUp">
-      <li>
-        <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <ion-icon name="add"></ion-icon></a>
-        <div id="faq1" class="collapse" data-parent="#faq-list">
-          <p>
-            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <ion-icon name="add"></ion-icon></a>
-        <div id="faq2" class="collapse" data-parent="#faq-list">
-          <p>
-            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <ion-icon name="add"></ion-icon></a>
-        <div id="faq3" class="collapse" data-parent="#faq-list">
-          <p>
-            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <ion-icon name="add"></ion-icon></a>
-        <div id="faq4" class="collapse" data-parent="#faq-list">
-          <p>
-            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <ion-icon name="add"></ion-icon></a>
-        <div id="faq5" class="collapse" data-parent="#faq-list">
-          <p>
-            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-          </p>
-        </div>
-      </li>
-
-      <li>
-        <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <ion-icon name="add"></ion-icon></a>
-        <div id="faq6" class="collapse" data-parent="#faq-list">
-          <p>
-            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section><!-- #faq -->
-
+<!-- #faq -->
 <section id="more-features" class="section-bg">
   <div class="container">
     <div class="section-header">
@@ -304,85 +338,150 @@
   </div>
 </div>
 </section>
+<section id="faq">
+  <div class="container">
+    <div class="section-header">
+      <h3 class="section-title">Preguntas Frecuentes</h3>
+      <span class="section-divider"></span>
+      <p class="section-description">¿No encuentra su inquietud? Llene este <a class="link" href="#">formulario</a> o escriba un <a title="admon.airsupreme@gmail.com" href="mailto:admon.airsupreme@gmail.com" href="">correo</a> para responderla </p>
+    </div>
 
+    <ul id="faq-list" class="wow fadeInUp">
+      <li>
+        <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq1" class="collapse" data-parent="#faq-list">
+          <p>
+            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+          </p>
+        </div>
+      </li>
+      <li>
+        <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq2" class="collapse" data-parent="#faq-list">
+          <p>
+            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+          </p>
+        </div>
+      </li>
+      <li>
+        <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq3" class="collapse" data-parent="#faq-list">
+          <p>
+            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+          </p>
+        </div>
+      </li>
+      <li>
+        <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq4" class="collapse" data-parent="#faq-list">
+          <p>
+            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+          </p>
+        </div>
+      </li>
+      <li>
+        <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq5" class="collapse" data-parent="#faq-list">
+          <p>
+            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+          </p>
+        </div>
+      </li>
+      <li>
+        <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <ion-icon class="more" name="add"></ion-icon></a>
+        <div id="faq6" class="collapse" data-parent="#faq-list">
+          <p>
+            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 <!-- Signup Section -->
 <section id="signup" class="signup-section">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto text-center">
         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+        <h2 class="text-white mb-5">Suscribete para recibir novedades!</h2>
         <form class="form-inline d-flex">
-          <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-          <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Ingresa tu correo...">
+          <button type="submit" class="btn btn-info mx-auto">Suscribirse</button>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Contact Section -->
-<section class="contact-section bg-black">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-envelope text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Email</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">
-              <a href="#">hello@yourdomain.com</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3 mb-md-0">
-        <div class="card py-4 h-100">
-          <div class="card-body text-center">
-            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
-            <hr class="my-4">
-            <div class="small text-black-50">+1 (555) 902-8832</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="social d-flex justify-content-center">
-      <a href="#" class="mx-2">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#" class="mx-2">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#" class="mx-2">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-  </div>
-</section>
-
 <!-- Footer -->
-<footer class="bg-black small text-center text-white-50">
-  <div class="container">
-    Copyright &copy; Air Supreme 2018
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-info">
+          <img class="ml-4" src="img/logo.png" alt="logo-airsupreme">
+          <div class="social-links">            
+            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="fab fa-whatsapp"></i></a>
+          </div>            
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h4 class="text-dark text-center mb-5">Suscribete para recibir novedades</h4>
+          <form class="form-inline d-flex">
+           <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Ingresa tu correo...">
+           <button type="submit" class="btn btn-info btn-small mx-auto">Suscribirse</button>
+         </form>       
+       </div>
+
+       <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Links Frecuentes</h4>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Inicio</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Nosotros</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Servicios</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Terminos del Servicio</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Políticas de Privacidad</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Blog</h4>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Uso adecuado del aire acondicionado</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Entrada 2</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Entrada 3</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Entrada 4</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Entrada 5</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-contact">
+        <h4>Contáctanos</h4>
+        <p>
+          Calle 111# 80-15 <br>
+          Medellín, Antioquia<br>
+          Colombia <br>
+          <strong>Teléfono:</strong> +1 5589 55488 55<br>
+          <strong>Correo:</strong> info@example.com<br>
+        </p>
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+<div class="copyright">
+  © Copyright <a href="https://fb.com/danideditos"><strong>Daniel Tobón</strong></a>. All Rights Reserved
+</div>
 </footer>
 
-<!-- JavaScript Libraries -->
 <script src="wow/wow.min.js"></script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
